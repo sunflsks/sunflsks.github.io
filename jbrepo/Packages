@@ -1,0 +1,345 @@
+Package: daniel.classdump-dyld
+Version: 1.1-2
+Architecture: iphoneos-arm
+Installed-Size: 892
+Filename: ./debs/daniel.classdump-dyld.deb
+Size: 142476
+MD5sum: 9f243efb5f9d1ae10931ac78913bf205
+SHA1: 2fae87e4022b3266b75cb5992e1121df0aa584e4
+SHA256: f077258f2e61663004feac3121fecb282ca160b3cbb9ee1b4fc7566dc653774d
+Section: System
+Description: Class-dump most images on device or shared cache. Works on arm64e. You should probably use me.
+Tag: purpose::extension, role::developer
+Author: Elias Limneos <limneoselias@gmail.com>
+Dev: limneos
+Name: classdump-dyld-works
+
+Package: dumpapp
+Version: 1
+Architecture: iphoneos-arm
+Maintainer: Sudhip
+Depends: flexdecrypt (>= 1.1), io.github.ddv.class-dump-ios
+Filename: ./debs/us.sudhip.dumpapp.deb
+Size: 1224
+MD5sum: 2ac5db73758af8614db379bdbf2b02e6
+SHA1: b69199c89f8285ea6d2be48beaadd88a4a7a499c
+SHA256: c80f553ba3ffc879d614a76eb7b850fd382af82f195d86ba19c72427448b49f9
+Section: System
+Description: Script to decrypt and dump binaries
+Tag: role::hacker
+Author: Sudhip
+Name: dumpapp
+
+Package: io.github.ddv.class-dump-ios
+Version: 1.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: DreamDevLost
+Installed-Size: 1592
+Filename: ./debs/io.github.ddv.class-dump-ios.deb
+Size: 378702
+MD5sum: 24be49cc34a7e171065707993a89ceeb
+SHA1: f4fdabb63f729eb20bcd13950f8df2095f61795b
+SHA256: bd73548fafbade816f63f7d2031ecac750ed3b8a5a665a56dad3a0ee951e2425
+Section: System
+Description: class-dump is a command-line utility for examining the Objective-C segment of Mach-O files. It generates declarations for the classes, categories and protocols.  This is the same information provided by using 'otool -ov', but presented as normal Objective-C declarations.
+Tag: role::hacker
+Author: DreamDevLost
+Name: class-dump-ios
+
+Package: manpages
+Version: 1
+Architecture: all
+Maintainer: Sudhip Nashi <sudhip@nashi.us>
+Installed-Size: 1660
+Filename: ./debs/manpages.deb
+Size: 871692
+MD5sum: 32c60607040438ef9fd7dbe558e4a9d3
+SHA1: bbfa32379f10f935474eb0caf7f8499e2a8161f2
+SHA256: d85c4b5c405e5fe85cf343968cd07aebd36165b1472df86fc7dd293a59d7c616
+Section: doc
+Description: Contains man pages from Libc, libpthread, libarchive, and coreutils. This assumes a GNU userspace
+
+Package: meta-package-creator
+Version: 1.0.1
+Architecture: all
+Maintainer: sunflsks
+Depends: libncursesw6
+Filename: ./debs/mpc.deb
+Size: 1132
+MD5sum: 8bd361973f4d66ad6e22296080699b01
+SHA1: e2c661bfed582cbe9f2ad2be3a36f5efda0fcdf6
+SHA256: c48ffe25720e3506f08232f06d2300bf04f0f402d1d0b056180c19212432f6f3
+Section: Administration
+Description: Create meta-package that has all currently installed packages as dependencies
+
+Package: stow
+Version: 2.3.1-1
+Architecture: all
+Maintainer: Chuan-kai Lin <cklin@debian.org>
+Installed-Size: 845
+Depends: perl
+Filename: ./debs/org.debian.stow.deb
+Size: 410292
+MD5sum: 0c32e5e503921efa8e5e39b4c9b86e9f
+SHA1: 178492a59476c09fae18bf6d45d9824c006e234b
+SHA256: 5d16dd0da73a4bd0f945873f4b43ea54e39857a9502f4e8f07ba0ca427eb0359
+Section: System
+Homepage: https://www.gnu.org/software/stow/
+Description: Organizer for /usr/local software packages
+ GNU Stow is a software installation manager for /usr/local.  Using
+ symbolic links, GNU Stow helps you keep the installations separate
+ (/usr/local/stow/emacs vs. /usr/local/stow/perl, for example) while
+ maintaining the illusion that they are all under /usr/local.
+Name: stow
+
+Package: us.sudhip.12propapers
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: sunchipnacho
+Depends: mobilesubstrate, wallpaperloader
+Filename: ./debs/us.sudhip.12propapers.deb
+Size: 217742868
+MD5sum: 2536e039c7bab21348b57ea2606fe2f2
+SHA1: 2d5872c06e7307b81f8670ca18e2f4095aff5ae5
+SHA256: 4da74a9f57591fbb1f579bbe97cc6f8343727f181b77537e01c52837f5f3c6ca
+Section: Aesthetics
+Description: iPhone 12 and 12 Pro wallpapers
+Name: iPhone 12 Pro Wallpapers
+
+Package: us.sudhip.anonymoose
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Sudhip
+Installed-Size: 3
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/us.sudhip.anonymoose.deb
+Size: 3266
+MD5sum: 20347ec6e8509d49d62517ea8e6254dc
+SHA1: 83189f8ee4bc58ad8abd2c1173e68113c18da7fd
+SHA256: 34e78eef622bc3149182f344d876400ea5d75e19aa3910b6564b4df0c3811c65
+Section: Tweaks
+Description: Browse Reddit anonymously(?) without age restrictions
+Author: Sudhip
+Name: Anonymoose
+
+Package: us.sudhip.ans
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Sudhip
+Installed-Size: 3
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/us.sudhip.ans_1.0.0_iphoneos-arm.deb
+Size: 13628
+MD5sum: 36631feb0e62f39785a43adb4309db03
+SHA1: 4c62ed42fac95f4fb1a886bd6250ce9df54e7c04
+SHA256: 7b679915854fea2bac8c72b4912d71afab3b7b4d8198111c081d65695a6798a3
+Section: Tweaks
+Description: Save photos in iMessage to an album in Photos, named after the conversation
+Author: Sudhip
+Name: AlbumNameSave
+
+Package: us.sudhip.apod
+Version: 1.3.11
+Architecture: iphoneos-arm
+Maintainer: Sudhip Nashi
+Installed-Size: 5
+Depends: mobilesubstrate, com.dgh0st.hswidgets, us.sudhip.libsunflsks
+Filename: ./debs/us.sudhip.apod.deb
+Size: 25998
+MD5sum: d272f3837889bf339b3a1f300d640174
+SHA1: 0cb58a719843c2fba3d4156fff8ada5fdaeb1680
+SHA256: 3588a7d8c473c74c7cab2b14bb8a633b6efa4fe367a1c11eff2eb7bc63fda495
+Section: Addons (HSWidgets)
+Description: HS NASA APOD right on your homescreen! Icons made by Good Ware from www.flaticon.com.
+Author: Sudhip Nashi
+Icon: http://ftp.sudhip.com/jbrepo/assets/hsnasaapod.png
+Name: HSNasaAPOD
+
+Package: us.sudhip.ed
+Version: 1.16
+Architecture: iphoneos-arm
+Maintainer: Sudhip Nashi
+Filename: ./debs/us.sudhip.ed.deb
+Size: 83152
+MD5sum: 6e3e8a2b51327e50197bcc30393b5ea4
+SHA1: 2be42dccef6af79dfde5152a7b967040c758d6bd
+SHA256: 1c77cf6d2b98439c83342a7936204af4fc4d38b8b318d38f5189965c61537338
+Section: System
+Description: mother of all editors
+Tag: role::hacker
+Author: Sudhip Nashi
+Name: ed
+
+Package: us.sudhip.ex
+Version: 050325
+Architecture: iphoneos-arm
+Maintainer: Sudhip Nashi
+Filename: ./debs/us.sudhip.ex.deb
+Size: 122660
+MD5sum: 8eba9c89b90f4543cb45ab02cde22673
+SHA1: ac15df14b762831484eea3bca8fee7a475e72e23
+SHA256: 575b6bbabfa8ba5f94d7a870541c965736dd1a10f26748f87d9de2b48bd0ff35
+Section: System
+Description: the mothers daugher of text editors
+Tag: role::hacker
+Author: Sudhip Nashi
+Name: ex
+
+Package: us.sudhip.fancytext
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Sudhip
+Installed-Size: 7
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/us.sudhip.fancytext.deb
+Size: 17450
+MD5sum: f7e853d3d792f3128a2d8bc620d9eb7f
+SHA1: 62fa95e9e35f926b70a988b28d7c61387563c1e3
+SHA256: c52692b0d5d688bee0be10cf8412b8e61a0f40d7130bc61c48c6d58aaaf89fe6
+Section: Tweaks
+Description: Add options to long hold menu
+Author: Sudhip
+Name: cRaZyTeXt
+
+Package: us.sudhip.hsweatherwidgetnightmode
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Soongyu Kwon
+Installed-Size: 148
+Depends: mobilesubstrate, com.dgh0st.hswidgets, com.peterdev.libpddokdo (>= 1.3)
+Conflicts: com.soongyukwon.hsweatherwidget
+Filename: ./debs/us.sudhip.hsweatherwidgetnightmode.deb
+Size: 13256
+MD5sum: bbc1fd5d7c6561532b03a13d65b7d6ad
+SHA1: 05fb8a7db3ae7e8ad471793fa410542006ae5305
+SHA256: 95496d4d42896f1bc5abca5a5e5faaded9b83378c7b7c6d8040bb45697b83aab
+Section: Addons (HSWidgets)
+Description: iOS 14 style weather widget for HSWidgets
+Author: Soongyu Kwon
+Name: HSWeatherWidgetWNightMode
+
+Package: us.sudhip.libsunflsks
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Sudhip
+Installed-Size: 2
+Filename: ./debs/us.sudhip.libsunflsks.deb
+Size: 18768
+MD5sum: 3cdb6c68bb05507725fc2bc9dfe3db1a
+SHA1: 74582ac877d2c00580217b5dd02d3585a880714f
+SHA256: 81568f3c8f8d3cd56220a4eb1d32536197d514e24b650885c7821bbbc8cd0b8d
+Section: System
+Description: Shared code between projects
+Tag: role::developer
+Author: Sudhip
+Name: libsunflsks
+
+Package: us.sudhip.nohswidgetslabel
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Sudhip Nashi
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000), com.dgh0st.hswidgets
+Filename: ./debs/us.sudhip.nohswidgetslabel.deb
+Size: 3326
+MD5sum: 1cfa5ed13590b3bbf03dfe262bdc7e94
+SHA1: ba882b64646f822e3e20094bd0b892e8324ba2d8
+SHA256: 8b2201c0948f7ffd0fec2e5e2001cbf5fa544afadad02577eb7d82b5153b46fd
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Sudhip Nashi
+Name: NoHSWidgetslabel
+
+Package: us.sudhip.sendtodesktop
+Version: 1.0.5.1
+Architecture: iphoneos-arm
+Maintainer: Sudhip
+Installed-Size: 14
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), com.muirey03.libmryipc, us.sudhip.libsunflsks
+Filename: ./debs/us.sudhip.sendtodesktop.deb
+Size: 1111458
+MD5sum: 49d62e417fab7c69381e6db972dc2f60
+SHA1: edf7d15ea1b7d2ab95ecd272109b267526081483
+SHA256: 56acbf71f0b080f47bbce6c6baee800a03904dae120f07a3b9deefb199fc434b
+Section: Tweaks
+Description: Send files from your phone to your PC
+Author: Sudhip
+Icon: http://ftp.sudhip.com/jbrepo/assets/sendtodesktop.png
+Name: SendToDesktop
+
+Package: us.sudhip.tcsh
+Version: 6.22.02
+Architecture: iphoneos-arm
+Maintainer: Sudhip Nashi
+Filename: ./debs/us.sudhip.tcsh.deb
+Size: 461996
+MD5sum: e6ff7903d46d76835eb0276e2a2faca9
+SHA1: d282f8c83c1bfb643ea4338367d232a83eac41a9
+SHA256: 0b844702936857cba1958117d2053d4ea69bbc6c80ac22e633afdf82fe0f6ae8
+Section: System
+Description: tcsh shell
+Tag: role::hacker
+Author: Sudhip Nashi
+Name: tcsh
+
+Package: us.sudhip.uptime
+Version: 1.0.2-1
+Architecture: iphoneos-arm
+Maintainer: Sudhip Nashi
+Installed-Size: 408
+Depends: mobilesubstrate (>= 0.9.5000), firmware(>=12.2) | org.swift.libswift (>=5.0)
+Filename: ./debs/us.sudhip.uptime.deb
+Size: 93622
+MD5sum: 42689ca2aef98364180ccb2779b8f67f
+SHA1: a01ff4278a51fc0365e31dfbd7547b8618163bba
+SHA256: e878fd9a82bfdf54c8554cc1b21c8aa0c02233488feb33695aaaa3c553e8639e
+Section: Applications
+Description: An application to find uptime. Compatible with UNIX philosophy
+Author: Sudhip Nashi
+Icon: http://ftp.sudhip.com/jbrepo/assets/uptime.png
+Name: Uptime
+
+Package: us.sudhip.vifm
+Version: 0.10.1
+Architecture: iphoneos-arm
+Maintainer: Sudhip Nashi
+Depends: ncurses (>=6)
+Filename: ./debs/us.sudhip.vifm.deb
+Size: 880144
+MD5sum: 6d09be8bf6af6b8abc31f3cad6ddcb2d
+SHA1: c73d55aac3d9ca24b12543954caea58d0b84cdd3
+SHA256: c3c73ca97513e186ba35810ef7fc2167a08a011b99cadef7554b367248f0688b
+Section: System
+Description: vi-like file manager
+Tag: role::hacker
+Author: Sudhip Nashi
+Name: vifm
+
+Package: us.sudhip.xlivepapers
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: sunchipnacho
+Depends: mobilesubstrate, wallpaperloader
+Filename: ./debs/us.sudhip.XLivePapers.deb
+Size: 50266104
+MD5sum: ff7b28e9cb2b8736e3814af6fb7005c7
+SHA1: 6bbbca5b743fbed194f0c2af246579e46e214d62
+SHA256: fb23fab57d10a6822c964d44253087bea6d90504a76d6c34345251decfa4538d
+Section: Aesthetics
+Description: iPhone X wallpapers
+Name: iPhone X Live Wallpapers
+
+Package: us.sudhip.xstillpapers
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: sunchipnacho
+Depends: mobilesubstrate, wallpaperloader
+Filename: ./debs/us.sudhip.XStillPapers.deb
+Size: 52903152
+MD5sum: ba136a0980b5060102ed06535df79e62
+SHA1: 56c8a9163407aa0d5cd7b48ff6a668eadec1cc44
+SHA256: 70ee0a0ca60835f24ca5440f8317f7fd100f3afb21dd3781b005eb77e2a24a8e
+Section: Aesthetics
+Description: iPhone X wallpapers (still)
+Name: iPhone X Still Wallpapers
+

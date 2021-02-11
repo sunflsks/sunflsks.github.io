@@ -1,0 +1,2 @@
+#!/bin/bash
+dpkg-scanpackages -m ./debs | tee >(gzip > Packages.gz) >(xz > Packages.xz) >(bzip2 > Packages.bz2) > Packages

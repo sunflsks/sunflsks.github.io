@@ -1,0 +1,13 @@
+{
+    "class":"FeaturedBannersView",
+    "itemSize":"{230, 148}",
+    "itemCornerRadius":10,
+    "banners":[
+        {
+            "url":"https://ftp.sudhip.com/jbrepo/assets/Banners/space.jpg",
+            "title":"HSNasaAPOD",
+            "package":"us.sudhip.apod",
+            "hideShadow":"false"
+        }
+    ]
+}
