@@ -34,6 +34,7 @@ html {
     background-color: #ffead3;
     color: black;
     font-family: "FantasqueSansMono";
+    overflow-x: hidden;
 }
 
 
