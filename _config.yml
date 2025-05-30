@@ -1,0 +1,8 @@
+domain: sudhip.com
+title: Sudhip Nashi
+description: CS + Linguistics Major at UMass Amherst
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

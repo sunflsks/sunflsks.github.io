@@ -1,42 +1,33 @@
-<!DOCTYPE html>
+---
+layout: default
+custom_css:
+  - "https://fontlibrary.org//face/fantasque-sans-mono"
+custom_js:
+  - "https://unpkg.com/nice-waves@latest"
+  - "/assets/js/index.js"
+body_onload: "init()"
+---
 
-<html>
+<div id="celestial-body" onclick="toggleDarkMode()"></div>
 
-<head>
-    <script src="https://unpkg.com/nice-waves@latest"></script>
-    <script src="all.js"></script>
-    <script src="index.js"></script>
-    <meta charset="utf8" name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="shapes.css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/fantasque-sans-mono" type="text/css"/>
-</head>
+<img src="/assets/img/star.svg" id="star">
+<img src="/assets/img/kite.svg" id="kite">
 
-<body onload="init()">
-    <div id="celestial-body" onclick="toggleDarkMode()"></div>
-    <img src="/resources/kite.svg" id="kite">
-    <img src="/resources/star.svg" id="star">
-
-    <div class="intro">
-        <h1 class="title" id="name"></h1>
-        <p id="ipa"></p>
-        <div class="aboutsummary">
-            <p> CS + Linguistics Major at UMass Amherst</p>
-        </div>
+<div class="intro">
+    <h1 class="title" id="name"></h1>
+    <p id="ipa"></p>
+    <div class="aboutsummary">
+        <p> CS + Linguistics Major at UMass Amherst</p>
     </div>
+</div>
 
+<div class="info">
+    <a href="{{ '/about.html' | relative_url }}">About Me</a> <br>
+    <a href="https://github.com/sunflsks">GitHub</a> <br>
+    <a href="https://linkedin.com/in/sudhipnashi">LinkedIn</a> <br>
+    <a href="{{ '/projects/index.html' | relative_url }}">Projects</a> <br>
+    <a href="{{ '/musings/index.html' | relative_url }}">Musings</a>
+</div>
 
-    <div class="info">
-        <a href="/about.html">About Me</a> <br>
-        <a href="https://github.com/sunflsks">GitHub</a> <br>
-        <a href="https://linkedin.com/in/sudhipnashi">LinkedIn</a> <br>
-        <a href="/projects/index.html">Projects</a> <br>
-        <a href="/musings/index.html">Musings</a>
-    </div>
-
-    <div id="waves"></div>
-    <div id="waves-base"></div>
-</body>
-
-
-</html>
+<div id="waves"></div>
+<div id="waves-base"></div>

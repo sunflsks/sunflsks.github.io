@@ -1,0 +1,97 @@
+#info {
+    text-align: center;
+}
+
+#waves {
+    position: absolute;
+    height: 10%;
+    width: 101vw;
+    bottom: 9%;
+    left: -1vw;
+
+    padding: 0px;
+}
+
+#waves-base {
+    background-color: #006994;
+
+    position: absolute;
+    height: 10%;
+    width: 101vw;
+    bottom: 0%;
+    left: -1vw;
+
+    padding: 0px;
+}
+
+#celestial-body {
+    background-color: #fc9601;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 0;
+    right: 0;
+    transform: translate(35%, -35%);
+
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dark-mode #celestial-body {
+    background-color: #cbcbcb;
+}
+
+#island {
+    background-color: brown;
+    position: absolute;
+    width: 30vw;
+    height: 10%;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 60%;
+    display: inline-block;
+
+    z-index: -1;
+}
+
+#star-4-point {
+    position: absolute;
+
+    width: 1vw;
+    height: 1vw;
+
+    top: 0;
+    right: 0;
+    display: inline-block;
+    color: #ffead3;
+}
+
+#kite {
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.dark-mode #kite {
+    display: none;
+}
+
+.dark-mode #star {
+    display: inline-block;
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+    width: 3vw;
+    height: 3vw;
+}
+
+#star {
+    display: none;
+}
+
+.dark-mode #star-4-point {
+    color: #cbcbcb;
+}
