@@ -6,10 +6,6 @@ custom_css: /assets/css/blog.css
 
 <h1 class="title">Projects + More</h1>
 
-<div class="info">
-    <a href="{{ '/' | relative_url }}">← Back to Home</a>
-</div>
-
 <div class="timeline-container">
     {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
     {% for year in postsByYear %}
