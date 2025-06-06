@@ -35,30 +35,26 @@
 
 html {
     background-color: #ffead3;
-    color: black;
+    color: #1a1a1a;
     font-family: "FantasqueSansMono";
-    overflow-x: hidden;
 }
-
 
 html.dark-mode {
     background-color: #000000;
     color: white;
 }
 
-.text {
-    display: block;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 1vw;
-    align-self: stretch;
-}
-
 .title {
     text-align: center;
     text-decoration-line: underline;
     padding: 20px;
+    font-family: "FantasqueSansMono";
+    overflow-x: hidden;
+}
+
+.aboutsummary {
+    text-align: center;
+    overflow-x: hidden;
 }
 
 .intro {

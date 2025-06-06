@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    {% include head.html %}
-    {% if page.custom_css %}
-        {% for stylesheet in page.custom_css %}
-            <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
-        {% endfor %}
-    {% endif %}
-    {% if page.custom_js %}
-        {% for script in page.custom_js %}
-            <script src="{{ script | relative_url }}"></script>
-        {% endfor %}
-    {% endif %}
-</head>
-<body{% if page.body_onload %} onload="{{ page.body_onload }}"{% endif %}>
-    {{ content }}
-</body>
-</html>
+---
+layout: home
+---
+<nav class="main-nav">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/projects">Projects</a>
+    <a href="/musings">Musings</a>
+</nav>
+
+{{ content }}
