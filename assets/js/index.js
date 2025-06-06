@@ -1,6 +1,6 @@
-let text = "sudhip nashi"
+let text = "Sudhip Nashi"
 let IPA = "/su.dʰip na.ʃi/"
-let status = "cs + linguistics @ umass amherst"
+let status = "CS + Linguistics @ UMass Amherst"
 var idx = 0;
 
 function typeStatus() {
