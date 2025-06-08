@@ -20,6 +20,12 @@
             <script src="{{ script | relative_url }}"></script>
         {% endfor %}
     {% endif %}
+
+    {% if layout.custom_js %}
+        {% for script in layout.custom_js %}
+            <script src="{{ script | relative_url }}"></script>
+        {% endfor %}
+    {% endif %}
 </head>
 <body{% if page.body_onload %} onload="{{ page.body_onload }}"{% endif %}>
     {{ content }}
