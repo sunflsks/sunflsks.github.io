@@ -81,3 +81,8 @@ html.dark-mode {
         padding: 15px;
     }
 }
+
+article {
+    line-height: 1.7; font-size: 1.1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
